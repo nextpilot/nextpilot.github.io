@@ -1,0 +1,47 @@
+# /******************************************************************
+#  *      _   __             __   ____   _  __        __
+#  *     / | / /___   _  __ / /_ / __ \ (_)/ /____   / /_
+#  *    /  |/ // _ \ | |/_// __// /_/ // // // __ \ / __/
+#  *   / /|  //  __/_>  < / /_ / ____// // // /_/ // /_
+#  *  /_/ |_/ \___//_/|_| \__//_/    /_//_/ \____/ \__/
+#  *
+#  * Copyright All Reserved © 2015-2024 NextPilot Development Team
+#  ******************************************************************/
+
+name: build-page-docs
+on:
+  push:
+    branches:
+      - master
+      - main
+    paths:
+      - docs/**
+      - mkdocs.yml
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+      - run: pip install mkdocs-material
+      - run: pip install mkdocs-autorefs
+      - run: pip install mkdocs-static-i18n
+      - run: pip install mkdocstrings
+      - run: mkdocs gh-deploy --force
