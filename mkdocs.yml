@@ -1,0 +1,16 @@
+site_name: NextPilot
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.top
+    - navigation.path
+    - seach.highlight
+    - search.suggest
+    - search.share
+    - toc.follow
+  language: zh
