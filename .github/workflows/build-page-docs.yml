@@ -17,6 +17,7 @@ on:
     paths:
       - docs/**
       - mkdocs.yml
+      - .github/workflows/build-page-docs.yml
 
 permissions:
   contents: write
