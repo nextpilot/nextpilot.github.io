@@ -1,6 +1,6 @@
 # 开源许可
 
-NextPilot follows the [BSD 3-Clause License](https://github.com/nextpilot/nextpilot-flight-control/LICENSE). It's completely open-source, can be used in commercial applications for free, does not require the disclosure of code, and has no potential commercial risk.
+NextPilot follows the [BSD 3-Clause License](https://github.com/nextpilot/nextpilot-flight-control/blob/main/LICENSE). It's completely open-source, can be used in commercial applications for free, does not require the disclosure of code, and has no potential commercial risk.
 
 ```
 BSD 3-Clause License
