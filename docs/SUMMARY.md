@@ -1,5 +1,6 @@
-* [Home](index.md)
+* [首页](index.md)
 * [关于我们](about/)
+* [技术文档](https://docs.nextpilot.cn)
 * [解决方案](solution/)
 * [精彩探索](discovery/)
 * [社区支持](community/)
