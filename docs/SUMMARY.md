@@ -1,5 +1,5 @@
 * [Home](index.md)
 * [关于我们](about/)
 * [解决方案](solution/)
-* [精彩探索](explorer/)
+* [精彩探索](discovery/)
 * [社区支持](community/)
