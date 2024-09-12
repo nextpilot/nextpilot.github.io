@@ -5,13 +5,13 @@ site_author: LaterComer
 site_description: NextPilot, a powerfull, scalable and advanced autopilot.
 
 # Repository
-repo_name: nextpilot/nextpilot.github.io
+repo_name: nextpilot.github.io
 repo_url: https://github.com/nextpilot/nextpilot.github.io
 
 use_directory_urls: false
 
 # Copyright
-copyright: Copyright &copy; 2015-2024 <a href="https://docs.nextpilot.cn">Nextpilot Develop Team</a>, Maintained by <a href="https://github.com/later-comer">LaterComer</a>.
+copyright: Copyright &copy; 2015-2024 <a href="https://docs.nextpilot.cn">Nextpilot Develop Team</a>, Maintained by <a href="https://github.com/comerlater">LaterComer</a>.
 
 # nav:
 #   - HOME: index.md
