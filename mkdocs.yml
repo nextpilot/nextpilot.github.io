@@ -1,0 +1,98 @@
+site_name: NextPilot 帮助文档
+site_url: http://docs.nextpilot.org
+site_description: NextPilot Document with mkdocs.
+site_author: NextPilot Team
+# repo_url: https://github.com/nextpilot/nextpilot-flight-control/
+# repo_name: nextpilot-flight-control
+# edit_uri: blob/master/docs/
+# edit_uri_template: 'blob/main/docs/{path}'
+# site_description:
+# site_author:
+# remote_branch: gh-pages
+# remote_name: origin
+
+nav:
+    - 主页: index.md
+    - 关于我们: A-关于我们/关于我们.md
+    - 用户手册:
+      - 快速使用: B-用户手册/01-快速使用.md
+      - 地面站使用说明: B-用户手册/02-地面站使用说明.md
+      - 仿真飞行: B-用户手册/03-仿真飞行.md
+      - 常用卫星板卡配置: B-用户手册/10-常用卫星板卡配置.md
+      - 产品NP-H05: B-用户手册/20-产品NP-50.md
+    - 开发指南:
+      - 开发指南: C-开发指南/开发指南.md
+    - 应用开发:
+      - 应用开发: D-应用开发/应用开发.md
+
+docs_dir: docs
+site_dir: build
+
+# theme:
+#     name: mkdocs
+#     locale: en
+#     analytics: {gtag: 'G-274394082'}
+#     highlightjs: true
+#     hljs_languages:
+#         - yaml
+#         - django
+
+theme:
+  name: material
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+
+use_directory_urls: false
+dev_addr: "127.0.0.1:8000"
+
+markdown_extensions:
+  - toc:
+      permalink: True
+      separator: "_"
+  - attr_list
+  - def_list
+  - tables
+  - admonition
+  - pymdownx.highlight:
+      use_pygments: false
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.superfences
+
+# - mdx_gh_links:
+#       user: mkdocs
+#       repo: mkdocs
+# - mkdocs-click
+
+# - callouts
+
+copyright: Copyright &copy; 2015 <a href="https://www.nextpilot.org">NextPilot.org</a>, Maintained by the <a href="/about/release-notes/#maintenance-team">NextPilot Development Team</a>.
+# plugins:
+#     - search
+#     - autorefs
+#     - literate-nav:
+#         nav_file: README.md
+#         implicit_index: true
+#     - mkdocstrings:
+#         handlers:
+#           python:
+#             options:
+#               docstring_section_style: list
+#               members_order: source
+#               show_root_heading: true
+#               show_source: false
+#               show_signature_annotations: true
