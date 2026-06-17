@@ -81,7 +81,7 @@ markdown_extensions:
 
 # - callouts
 
-copyright: Copyright &copy; 2015 <a href="https://www.nextpilot.org">NextPilot.org</a>, Maintained by the <a href="/about/release-notes/#maintenance-team">NextPilot Development Team</a>.
+copyright: Copyright &copy; 2015 <a href="https://www.nextpilot.org">NextPilot.org</a>, Maintained by the <a href="/about/release-notes/#maintenance-team">NextPilot Development Team</a>.<br><a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2024093355号-1</a>
 # plugins:
 #     - search
 #     - autorefs
