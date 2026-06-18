@@ -6,6 +6,7 @@
 * [用户手册](manual/)
 * [开发指南](develop/)
 * [社区支持](community/)
+* [资源下载](download/)
 
 <!-- * [精彩探索](discovery/) -->
 <!-- * [淘宝店铺](https://nextpilot.taobao.com) -->
