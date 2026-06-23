@@ -137,6 +137,26 @@
   }
 }
 
+/* ---- Product Catalog (product/index.md) ---- */
+.md-typeset .grid.cards .product-status-future {
+  opacity: 0.6;
+  position: relative;
+}
+.md-typeset .grid.cards .product-status-future::after {
+  content: "即将推出";
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color--light);
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* ---- Responsive ---- */
 @media screen and (max-width: 600px) {
   .vp-features-grid {
     grid-template-columns: 1fr;
