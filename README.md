@@ -45,3 +45,4 @@ mkdocs serve
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/)
 - [MkDocs static i18n plugin documentation，多国语言支持](https://ultrabug.github.io/mkdocs-static-i18n)
 - [mkdocs-literate-nav，使用 SUMMARY.md 创建导航栏](https://oprypin.github.io/mkdocs-literate-nav/index.html)
+- [mkdocs-awesome-nav](https://lukasgeiter.github.io/mkdocs-awesome-nav/)
