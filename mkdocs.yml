@@ -1,7 +1,7 @@
 site_name: NextPilot 帮助文档
-site_url: http://docs.nextpilot.cn
+site_url: https://docs.nextpilot.cn
 site_author: NextPilot Development Team
-site_description: NextPilot, a powerfull, scalable and advanced autopilot.
+site_description: NextPilot, a powerful, scalable and advanced autopilot.
 
 # repo_name: nextpilot-flight-control
 # repo_url: https://github.com/nextpilot/nextpilot-flight-control/
@@ -11,55 +11,28 @@ edit_uri: blob/main/docs/
 # remote_branch: gh-pages
 # remote_name: origin
 
-# nav:
-#     - 主页: index.md
-#     - 关于我们: A-关于我们/关于我们.md
-#     - 用户手册:
-#       - 快速使用: B-用户手册/01-快速使用.md
-#       - 地面站使用说明: B-用户手册/02-地面站使用说明.md
-#       - 仿真飞行: B-用户手册/03-仿真飞行.md
-#       - 常用卫星板卡配置: B-用户手册/10-常用卫星板卡配置.md
-#       - 产品NP-H05: B-用户手册/20-产品NP-H50.md
-#       - 资源下载: B-用户手册/09-资源下载.md
-#     - 开发指南:
-#       - 开发指南: C-开发指南/开发指南.md
-#     - 应用开发:
-#       - 应用开发: D-应用开发/应用开发.md
-
 docs_dir: docs
 site_dir: build/gh-pages
 
 use_directory_urls: false
 dev_addr: "127.0.0.1:8063"
 
-copyright: Copyright &copy; 2015-2024 <a href="https://docs.nextpilot.cn">NextPilot Development Team</a>.<br /><a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2024093355号-3</a>
-
-# nav:
-#     - 主页: index.md
-#     - 用户手册:
-#       - 入门指南: userguide/getting-started
-#     - 开发指南:
-#       - 入门指南: develop/getting-started
-#       - 核心组件: develop/modules
-#       - 飞行仿真: develop/simulation
-#       - 分析调试: develop/debugging
-#       - 高级功能: develop/advance
-#       - 集成测试: develop/testing
-#       - 代码贡献: develop/contribute
-#     - 关于我们: aboutus
+copyright: Copyright &copy; 2015-2026 <a href="https://docs.nextpilot.cn">NextPilot Development Team</a>.<br /><a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2024093355号-3</a>
 
 theme:
   name: material
+  custom_dir: overrides
   favicon: favicon.png
   logo: favicon.png
   features:
-    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.indexes
     - navigation.top
     - navigation.path
-    - seach.highlight
+    - search.highlightsearch
     - search.suggest
     - search.share
     - toc.follow
@@ -122,14 +95,15 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-    # - mdx_gh_links:
-    #       user: mkdocs
-    #       repo: mkdocs
-    # - mkdocs-click
-    # - callouts
+# - mdx_gh_links:
+#       user: mkdocs
+#       repo: mkdocs
+# - mkdocs-click
+# - callouts
 
 plugins:
-  - search
+  - search:
+     lang: [zh, en]
   - tags
   - autorefs
   - literate-nav:
@@ -147,6 +121,7 @@ plugins:
   #           show_signature_annotations: true
   - i18n:
       docs_structure: suffix
+      default_language: zh
       languages:
         - locale: en
           name: English
@@ -155,6 +130,7 @@ plugins:
           name: 简体中文
           default: true
           build: true
+  - mike
   # - git-revision-date-localized:
   #     enable_creation_date: true
 
@@ -162,22 +138,22 @@ not_in_nav: |
   /**/SUMMARY.md
   /**/README.md
 
+extra_css:
+  - stylesheets/home.css
+
 extra:
   version:
     method: mike
   generator: false
   alternate:
-    # Switch to English
     - name: English
       link: /en/
       lang: en
 
-    # Switch to English
     - name: 简体中文
       link: /zh/
       lang: zh
 
 extra_javascript:
   - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

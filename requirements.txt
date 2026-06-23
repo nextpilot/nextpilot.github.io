@@ -5,3 +5,4 @@ mkdocs-static-i18n
 mkdocstrings
 mkdocs-git-revision-date-localized-plugin
 mkdocs-literate-nav
+mike
