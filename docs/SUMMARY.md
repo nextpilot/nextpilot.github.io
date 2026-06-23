@@ -1,8 +1,8 @@
 
 * [首页](index.md)
 * [关于我们](aboutus/)
-* [产品中心](product/)
 * [解决方案](solution/)
+* [产品中心](product/)
 * [用户手册](manual/)
 * [开发指南](develop/)
 * [资源下载](download/)
