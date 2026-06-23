@@ -39,3 +39,9 @@ mkdocs build
 # 或者使用，在浏览器http://127.0.0.1:8063/可以预览效果
 mkdocs serve
 ```
+
+## 参考资料
+
+- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/)
+- [MkDocs static i18n plugin documentation，多国语言支持](https://ultrabug.github.io/mkdocs-static-i18n)
+- [mkdocs-literate-nav，使用 SUMMARY.md 创建导航栏](https://oprypin.github.io/mkdocs-literate-nav/index.html)

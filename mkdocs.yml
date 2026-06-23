@@ -121,7 +121,7 @@ plugins:
   #           show_signature_annotations: true
   - i18n:
       docs_structure: suffix
-      default_language: zh
+      # default_language: zh
       languages:
         - locale: en
           name: English
