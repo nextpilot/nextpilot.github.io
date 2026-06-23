@@ -91,4 +91,4 @@
 
 无人机协调编队飞行，可展示当前飞行编队队形，并可通过飞行编队界面对飞行队形进行设置与编辑等操作。
 
-![](./image//qgc-follow-target.png)
+![](./image/qgc-follow-target.png)
