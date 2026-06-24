@@ -106,10 +106,11 @@ plugins:
      lang: [zh, en]
   - tags
   - autorefs
-  - literate-nav:
-      nav_file: SUMMARY.md
-      implicit_index: false
-      tab_length: 2
+  - awesome-nav
+  # - literate-nav:
+  #     nav_file: SUMMARY.md
+  #     implicit_index: false
+  #     tab_length: 2
   # - mkdocstrings:
   #     handlers:
   #       python:
@@ -123,13 +124,14 @@ plugins:
       docs_structure: suffix
       # default_language: zh
       languages:
-        - locale: en
-          name: English
-          build: true
         - locale: zh
           name: 简体中文
           default: true
+          build: true        
+        - locale: en
+          name: English
           build: true
+      reconfigure_material: true
   - mike
   # - git-revision-date-localized:
   #     enable_creation_date: true
