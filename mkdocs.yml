@@ -6,7 +6,7 @@ site_description: NextPilot, a powerful, scalable and advanced autopilot.
 # repo_name: nextpilot-flight-control
 # repo_url: https://github.com/nextpilot/nextpilot-flight-control/
 
-edit_uri: blob/main/docs/
+# edit_uri: blob/main/docs/
 # edit_uri_template: 'blob/main/docs/{path}'
 # remote_branch: gh-pages
 # remote_name: origin
