@@ -12,7 +12,7 @@ hide:
     可便捷地应用于教育、研究和工业等领域。
   </p>
   <div class="vp-hero-actions">
-    <a class="vp-hero-action primary" href="/manual/01-快速使用/01-准备工作.html">快速入门</a>
+    <a class="vp-hero-action primary" href="/manual/01-快速入门/01-准备工作.html">快速入门</a>
     <a class="vp-hero-action secondary" href="https://github.com/nextpilot/nextpilot-flight-control" target="_blank" rel="noopener">GitHub</a>
   </div>
 </section>
