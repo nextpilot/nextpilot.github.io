@@ -3,8 +3,8 @@ site_url: https://docs.nextpilot.cn
 site_author: NextPilot Development Team
 site_description: NextPilot, a powerful, scalable and advanced autopilot.
 
-# repo_name: nextpilot-flight-control
-# repo_url: https://github.com/nextpilot/nextpilot-flight-control/
+# repo_name: nextpilot.github.io
+# repo_url: https://github.com/nextpilot/nextpilot.github.io/
 
 # edit_uri: blob/main/docs/
 # edit_uri_template: 'blob/main/docs/{path}'
