@@ -13,7 +13,7 @@ hide:
   </p>
   <div class="vp-hero-actions">
     <a class="vp-hero-action primary" href="/manual/01-快速入门/01-准备工作.html">Get Started</a>
-    <a class="vp-hero-action secondary" href="https://github.com/nextpilot/nextpilot-flight-control" target="_blank" rel="noopener">GitHub</a>
+    <!-- <a class="vp-hero-action secondary" href="https://github.com/nextpilot/nextpilot-flight-control" target="_blank" rel="noopener">GitHub</a> -->
   </div>
 </section>
 
