@@ -8,9 +8,9 @@ NextPilot导航飞控目前只支持NP-H05系列飞控，该飞控采用两块ST
 
 ## 飞控固件
 
-### v1.0-beta
+根据使用场景选择固件，以下为最新版本固件（通过FCS-USB口烧录），历史固件请查看[发布记录](./发布记录.md)。
 
-- 实际飞行固件：[fcs_v4_default.bin](./1-飞控固件/v1.0-beta/fcs_v4_default.bin)
+- 真机飞行固件：[fcs_v4_default.bin](./1-飞控固件/v1.0-beta/fcs_v4_default.bin)
 
 - 硬件在环固件HITL：[fcs_v4_default-HITL.bin](./1-飞控固件/v1.0-beta/fcs_v4_default-HITL.bin)
 
@@ -18,9 +18,9 @@ NextPilot导航飞控目前只支持NP-H05系列飞控，该飞控采用两块ST
 
 ## 导航固件
 
-### v1.0-beta
+以下为最新版本固件（通过AHRS-USB口烧录），历史固件请查看[发布记录](./发布记录.md)。
 
-[ins_v1.0.bin](./2-导航固件/v1.0/ins_hal_V4_20251120.bin)
+[ins_V4_default.bin](./2-导航固件/v1.0/ins_V4_default.bin)
 
 ## SITL相关脚本
 
@@ -35,7 +35,3 @@ NextPilot导航飞控目前只支持NP-H05系列飞控，该飞控采用两块ST
 
 通过网盘分享的文件：nextpilot-user-assets
 链接: <https://pan.baidu.com/s/1-OiGOEX7B2mDmwkJNmagVg> 提取码: next
-
-### gitee仓库
-
-点击链接[nextpilot-user-assets](https://gitee.com/nextpilot/nextpilot-user-assets)进入NextPilot资源仓库，然后可以点击右侧`克隆/下载`按钮，选择直接下载ZIP压缩包即可。如果只希望下载某个特定文件，可以找到后，鼠标右键点击选择`下载`。
