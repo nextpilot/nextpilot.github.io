@@ -20,6 +20,7 @@ exclude_docs: |
   aboutus/events.md
   aboutus/history.md
   aboutus/roadmap.md
+  manual/00-基本概念
 
 dev_addr: "127.0.0.1:8063"
 
