@@ -27,7 +27,7 @@ copyright: Copyright &copy; 2015-2026 <a href="https://nextpilot.org">NextPilot 
 
 theme:
   name: material
-  custom_dir: overrides
+  custom_dir: docs/overrides
   favicon: favicon.png
   logo: favicon.png
   features:
