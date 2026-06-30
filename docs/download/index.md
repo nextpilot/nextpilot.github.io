@@ -22,7 +22,7 @@ NextPilot导航飞控目前只支持NP-H05系列飞控，该飞控采用两块ST
 
 [ins_V4_default.bin](./2-导航固件/v1.0/ins_V4_default.bin)
 
-## SITL相关脚本
+## SITL相关脚本 {#SITL相关脚本}
 
 软件在环仿真相关脚本的使用请参考[软件在环仿真](../manual/03-飞行仿真/01-软件在环仿真.md)。
 
