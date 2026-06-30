@@ -24,7 +24,8 @@ exclude_docs: |
 
 dev_addr: "127.0.0.1:8063"
 
-copyright: Copyright &copy; 2015-2026 <a href="https://nextpilot.org">NextPilot Development Team</a>.<br /><a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2024093355号-3</a>
+copyright: Copyright &copy; 2015-2026 <a href="https://nextpilot.org">NextPilot Development Team</a>.<br />
+# <a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2024093355号-3</a>
 
 theme:
   name: material
