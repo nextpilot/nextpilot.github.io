@@ -4,11 +4,11 @@
 
 本仓库托管 [nextpilot.github.io](https://github.com/nextpilot/nextpilot.github.io) 托管了NextPilot Document Website网站，包含产品介绍、精彩案例、用户手册、开发指南等内容。
 
-- 官方网站：<https://docs.nextpilot.cn>
+- 官方网站：<https://docs.nextpilot.org>
 
-- 用户手册：<https://docs.nexpilot.cn/manual>
+- 用户手册：<https://docs.nexpilot.org/manual>
 
-- 开发指南：<https://docs.nexpilot.cn/develop>
+- 开发指南：<https://docs.nexpilot.org/develop>
 
 > 当仓库更新时，Github 基于 [.github/workflows/mkdocs-gh-deploy.yml](.github/workflows/mkdocs-gh-deploy.yml) 自动触发编译，并将生成结果推送到 [gh-pages分支](https://github.com/nextpilot/nextpilotgithub.io/tree/gh-pages)。
 
