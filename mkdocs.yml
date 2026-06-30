@@ -1,10 +1,10 @@
 site_name: NextPilot 帮助文档
-site_url: https://docs.nextpilot.cn
+site_url: https://docs.nextpilot.org
 site_author: NextPilot Development Team
 site_description: NextPilot, a powerful, scalable and advanced autopilot.
 
-# repo_name: nextpilot-flight-control
-# repo_url: https://github.com/nextpilot/nextpilot-flight-control/
+# repo_name: nextpilot.github.io
+# repo_url: https://github.com/nextpilot/nextpilot.github.io/
 
 # edit_uri: blob/main/docs/
 # edit_uri_template: 'blob/main/docs/{path}'
@@ -23,7 +23,7 @@ exclude_docs: |
 
 dev_addr: "127.0.0.1:8063"
 
-copyright: Copyright &copy; 2015-2026 <a href="https://docs.nextpilot.cn">NextPilot Development Team</a>.<br /><a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2024093355号-3</a>
+copyright: Copyright &copy; 2015-2026 <a href="https://nextpilot.org">NextPilot Development Team</a>.<br /><a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2024093355号-3</a>
 
 theme:
   name: material

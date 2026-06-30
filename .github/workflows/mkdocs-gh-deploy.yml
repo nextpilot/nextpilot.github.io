@@ -8,12 +8,15 @@
 #  * Copyright All Reserved © 2015-2026 NextPilot Development Team
 #  ******************************************************************/
 
-name: build-help-docs
+name: mkdocs-gh-deploy
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
       - main
+      - develop
+      - release
     paths:
       - docs/**
       - mkdocs.yml
@@ -37,8 +40,8 @@ jobs:
       - uses: actions/cache@v4
         with:
           key: mkdocs-material-${{ env.cache_id }}
-          path: .cache
+          path: ~/.cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install -r docs/requirements.txt
+      - run: pip install -r requirements.txt
       - run: mkdocs gh-deploy --force
