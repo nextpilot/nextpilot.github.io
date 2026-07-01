@@ -20,7 +20,7 @@ NextPilot导航飞控目前只支持NP-H05系列飞控，该飞控采用两块ST
 
 以下为最新版本固件（通过AHRS-USB口烧录），历史固件请查看[发布记录](./发布记录.md)。
 
-[ins_V4_default.bin](./2-导航固件/v1.0/ins_V4_default.bin)
+[ins_v4_default.bin](./2-导航固件/v1.0/ins_v4_default.bin)
 
 ## SITL相关脚本 {#SITL相关脚本}
 
