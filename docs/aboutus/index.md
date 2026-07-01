@@ -5,6 +5,9 @@
 ## 联系方式
 
 - Email邮箱：[nextpilot@qq.com](mailto:nextpilot@qq.com)
+- 淘宝店铺： [NextPilot](https://ffvf62dgcrpcsf5h87lj12mrgn90rx5.taobao.com/)
+- Bilibili： [NextPilot飞控系统](https://space.bilibili.com/1327597550?spm_id_from=333.337.0.0)
+
 
 ## 扫码加群
 
