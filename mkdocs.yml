@@ -1,4 +1,4 @@
-site_name: NextPilot 帮助文档
+site_name: NextPilot 文档中心
 site_url: https://docs.nextpilot.org
 site_author: NextPilot Development Team
 site_description: NextPilot, a powerful, scalable and advanced autopilot.
@@ -24,12 +24,12 @@ exclude_docs: |
 
 dev_addr: "127.0.0.1:8063"
 
-copyright: Copyright &copy; 2015-2026 <a href="https://nextpilot.org">NextPilot Development Team</a>.<br />
+copyright: Copyright &copy; 2015-2026 <a href="https://docs.nextpilot.org">NextPilot Development Team</a>.<br />
 # <a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2024093355号-3</a>
 
 theme:
   name: material
-  custom_dir: overrides
+  custom_dir: docs/overrides
   favicon: favicon.png
   logo: favicon.png
   features:
@@ -115,10 +115,6 @@ plugins:
   - tags
   - autorefs
   - awesome-nav
-  # - literate-nav:
-  #     nav_file: SUMMARY.md
-  #     implicit_index: false
-  #     tab_length: 2
   # - mkdocstrings:
   #     handlers:
   #       python:

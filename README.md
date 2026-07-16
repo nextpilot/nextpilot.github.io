@@ -2,7 +2,7 @@
 
 ## 如何使用
 
-本仓库托管 [nextpilot.github.io](https://github.com/nextpilot/nextpilot.github.io) 托管了NextPilot Document Website网站，包含产品介绍、精彩案例、用户手册、开发指南等内容。
+本仓库托管 [Nextpilot Document Website](https://github.com/nextpilot/nextpilot.github.io) 托管了NextPilot Document Website网站，包含产品介绍、精彩案例、用户手册、开发指南等内容。
 
 - 官方网站：<https://docs.nextpilot.org>
 
@@ -26,16 +26,16 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
 # 安装mkdocs等依赖项
-pip install -r requirements.txt
+pip install -r docs/requirements.txt
 ```
 
 编译帮助文档
 
 ```shell
 # 下载代码到本地
-git clone https://github.com/nextpilot/nextpilot-flight-control.git
+git clone https://github.com/nextpilot/nextpilot.github.io.git
 # 切换到docs目录
-cd nextpilot-flight-control
+cd nextpilot.github.io
 # 编译文档
 mkdocs build
 # 或者使用，在浏览器http://127.0.0.1:8063/可以预览效果
