@@ -1,5 +1,17 @@
 {% extends "base.html" %}
 
+{% block analytics %}
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?1cc58f5adc1fd7e6dc3b5ebb34499ea2";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+{% endblock %}
+
 {% block container %}
   {% if page.is_homepage %}
     {{ page.content }}
